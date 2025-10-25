@@ -1,0 +1,9 @@
+<div class="button-examples">
+    <app-button 
+        *ngFor="let btnLink of buttonsLinks" 
+        [label]="btnLink.label" 
+        variant="primary" 
+        [theme]="currentTheme"
+        [href]="btnLink.link">
+    </app-button>
+</div>

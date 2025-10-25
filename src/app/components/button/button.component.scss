@@ -1,0 +1,76 @@
+@import '../../styles/theme';
+@import '../../styles/variables';
+
+.btn {
+    width: 100%;
+    min-width: 280px;
+    max-width: 540px;
+    height: 56px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid;
+    outline: none;
+
+    &:hover {
+        transform: translateY(-1px);
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+}
+
+// PRIMARY VARIANT - DARK THEME
+.btn-primary.btn-dark {
+    background-color: $surface-color-dark-mode;
+    color: $text-color-dark-mode;
+    border-color: $stroke-color-dark-mode;
+
+    &:hover {
+        background-color: $surface-color-dark-mode;
+        border-color: $stroke-color-dark-mode;
+    }
+}
+
+// PRIMARY VARIANT - LIGHT THEME
+.btn-primary.btn-light {
+    background-color: $surface-color-light-mode;
+    color: $text-color-light-mode;
+    border-color: $stroke-color-light-mode;
+
+    &:hover {
+        background-color: $surface-color-light-mode;
+        border-color: $stroke-color-light-mode;
+    }
+}
+
+// OUTLINED VARIANT - DARK THEME
+.btn-outlined.btn-dark {
+    background-color: $surface-color-dark-mode-hover;
+    color: $text-color-dark-mode;
+    border-color: $text-color-dark-mode;
+    border: 1.5px solid;
+
+    &:hover {
+        background-color: $surface-color-dark-mode-hover;
+        border-color: $text-color-dark-mode;
+    }
+}
+
+// OUTLINED VARIANT - LIGHT THEME
+.btn-outlined.btn-light {
+    background-color: $surface-color-light-mode-hover;
+    color: $text-color-light-mode;
+    border-color: $text-color-light-mode;
+    border: 1.5px solid;
+
+    &:hover {
+        background-color: $surface-color-light-mode-hover;
+        border-color: $text-color-light-mode;
+    }
+}

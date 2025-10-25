@@ -1,0 +1,24 @@
+.image-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: var(--color-surface);
+    border: 2px solid var(--color-stroke);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+h3 {
+    color: var(--color-text);
+    text-align: center;
+    margin: 16px 0;
+}

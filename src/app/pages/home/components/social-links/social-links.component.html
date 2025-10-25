@@ -1,0 +1,5 @@
+<div class="row-social-links">
+    <a *ngFor="let link of socialLinks" [href]="link.link" target="_blank" rel="noopener noreferrer">
+        <img [src]="link.asset" [alt]="link.alt">
+    </a>
+</div>

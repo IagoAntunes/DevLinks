@@ -1,0 +1,15 @@
+.row-social-links{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    
+    a {
+        display: inline-block;
+        
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

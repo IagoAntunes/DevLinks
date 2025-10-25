@@ -1,0 +1,13 @@
+@use '../../../../styles/typography' as typo;
+
+h1 {
+    @include typo.text-md;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--color-text);
+    text-align: center;
+    margin: 16px 0;
+}

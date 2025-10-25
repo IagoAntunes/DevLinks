@@ -1,0 +1,14 @@
+<div class="home-page" [ngStyle]="backgroundStyle">
+    <button class="theme-toggle" (click)="toggleTheme()">
+        {{ currentTheme === 'light' ? '☀️ Light' : '🌙 Dark' }}
+    </button>
+    
+    <app-profile/>
+    
+    <app-links/>
+
+    <app-social-links/>
+
+    <app-footer/>
+
+</div>

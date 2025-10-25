@@ -1,3 +1,9 @@
-@use 'styles/variables';
-@use 'styles/typography'; 
-@use 'styles/theme';
+@use 'app/styles/variables';
+@use 'app/styles/typography'; 
+@use 'app/styles/theme';
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
