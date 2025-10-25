@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+:root {
+    --font-family-base: 'Inter', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+}
+
+// Mixins SCSS
+@mixin text-md {
+    font-family: var(--font-family-base);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: var(--font-weight-medium);
+}
+
+@mixin text-sm {
+    font-family: var(--font-family-base);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: var(--font-weight-regular);
+}
+
+.text-md {
+    @include text-md;
+}
+
+.text-sm {
+    @include text-sm;
+}

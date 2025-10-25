@@ -1,0 +1,7 @@
+@use 'src/styles/typography' as typo;
+
+h1 {
+    @include typo.text-md;
+    color: var(--color-primary);
+    font-weight: 700;
+}

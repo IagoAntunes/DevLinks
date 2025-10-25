@@ -1,0 +1,19 @@
+//THEME
+@use 'variables' as vars;
+
+:root {
+    --color-text:           #{vars.$text-color-light-mode};
+    --color-stroke:         #{vars.$stroke-color-light-mode};
+    --color-surface:        #{vars.$surface-color-light-mode};
+    --color-surface-hover:  #{vars.$surface-color-light-mode-hover};
+    --color-highlight:      #{vars.$highlight-color-light-mode};
+  
+}
+
+:root.theme-dark {
+    --color-text:           #{vars.$text-color-dark-mode};
+    --color-stroke:         #{vars.$stroke-color-dark-mode};
+    --color-surface:        #{vars.$surface-color-dark-mode};
+    --color-surface-hover:  #{vars.$surface-color-dark-mode-hover};
+    --color-highlight:      #{vars.$highlight-color-dark-mode};
+}
